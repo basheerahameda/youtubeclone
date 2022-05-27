@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background: #eee;
+    font-family: 'roboto', sans-serif;
+}
+
+.header{
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 60px;
+    
+}
+
+.logo{
+    height: 25px;
+    margin-left: 20px;
+}
+.toggle-btn{
+    
+    height: 25px;
+    margin-left: 20px;
+}
+
+.search-container{
+    
+     width:100%;
+     max-width: 500px;
+     height: 40px;
+ }
+
+.search-input{
+   
+    margin: auto;
+    height: 40px;
+    background-color: lightgray;
+    
+}
+.search-img{
+    position: relative;   
+    height: 40px;
+    
+    
+}
+.menu-icon{
+    display: flex;
+    margin-right: 20px;
+   
+}
+.icon{
+    
+    height: 30px;
+    display: inline;
+    
+}
+
+.icon-dp{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    }
+.icon-dp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.side-menu{
+    position:fixed;
+    margin-top: 10px;
+    margin-left: 0px;
+    min-width: 250px;
+    width: 250px;
+    height:calc(100vh-70px);
+}
+.links{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    align-items: center;
+    color: #242424;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.links:hover,
+.links.active{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.links img{
+    height: 25px;
+    margin-right: 20px;
+}
+
+.filters{
+    position: fixed;
+    left: 270px;
+    top: 60px;
+    width: calc(100% - 250px);
+    height: 60px;
+    background: #fff;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.filter-options{
+    flex: 0 0 auto;
+    padding: 10px 20px;
+    margin-right: 10px;   
+    background: #f0f0f0;
+    border: 1px solid #dbdbdb;
+    border-radius: 50px;
+    text-transform: capitalize;
+    color: #242424;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.video-sec{
+   margin-top: 60px;
+  margin-left: 300px;
+}
